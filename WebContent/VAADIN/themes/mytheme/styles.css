@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+@import "../reindeer/styles.css";
+
+.h1 {
+font-size: 40;
+line-height: inherit;
+text-align: center;
+color: inherit;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.v-form fieldset{
+border: thin solid;
+}
+
+.v-form legend {
+text-align: center;
+}
