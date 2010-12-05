@@ -11,6 +11,7 @@ import com.example.bean.User;
 import com.example.bean.Ville;
 import com.vaadin.data.Item;
 import com.vaadin.data.util.BeanItem;
+import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.DefaultFieldFactory;
 import com.vaadin.ui.Field;
@@ -57,6 +58,8 @@ public class Formulaire extends Form {
 			setVisibleItemProperties(ordre);
 			setCaption("Ajouter reservation");
 		}
+		Button commit = new Button("Commit", this, "commit");
+		getLayout().addComponent(commit);
 	}
 }
 

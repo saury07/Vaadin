@@ -94,7 +94,7 @@ public class VaadinApplication extends Application {
 
 		
 		
-		Button commit = new Button("Sauver",form,"commit");
+		/*Button commit = new Button("Sauver",form,"commit");
 		commit.addListener(new ClickListener() {
 
 			public void buttonClick(ClickEvent event) {
@@ -108,6 +108,7 @@ public class VaadinApplication extends Application {
 				//form.setVisibleItemProperties(ordre);
 			}
 		});
+		*/
 
 		Button refresh = new Button("Refresh");
 		refresh.addListener(new ClickListener() {
@@ -152,8 +153,8 @@ public class VaadinApplication extends Application {
 		mainLay.setComponentAlignment(delete, Alignment.MIDDLE_CENTER);
 		mainLay.addComponent(form);
 		//mainLay.setComponentAlignment(form, Alignment.MIDDLE_CENTER);
-		mainLay.addComponent(commit);
-		mainLay.setComponentAlignment(commit, Alignment.MIDDLE_CENTER);
+	//	mainLay.addComponent(commit);
+	//	mainLay.setComponentAlignment(commit, Alignment.MIDDLE_CENTER);
 		setTheme("mytheme");
 		setMainWindow(mainWindow);
 	}
