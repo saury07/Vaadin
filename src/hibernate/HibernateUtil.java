@@ -9,10 +9,10 @@ import org.hibernate.cfg.Environment;
 import org.hibernate.classic.Session;
 import org.hibernate.dialect.HSQLDialect;
 
-import com.example.bean.Reservation;
-import com.example.bean.Restaurant;
-import com.example.bean.User;
-import com.example.bean.Ville;
+import backoffice.bean.Reservation;
+import backoffice.bean.Restaurant;
+import backoffice.bean.User;
+import backoffice.bean.Ville;
 
 public class HibernateUtil {
 

@@ -17,3 +17,11 @@ border: thin solid;
 .v-form legend {
 text-align: center;
 }
+
+.red {
+background-color: #ff0000;	
+}
+
+.blue {
+background-color: #0000ff;	
+}
