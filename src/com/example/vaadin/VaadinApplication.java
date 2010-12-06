@@ -88,7 +88,7 @@ public class VaadinApplication extends Application {
 			}
 		});
 
-		final Formulaire form = new Formulaire(User.class, session);
+		final Formulaire form = new Formulaire(Reservation.class, session);
 		//form.setCaption("Ajouter utilisateur");
 		final User user = new User();		
 

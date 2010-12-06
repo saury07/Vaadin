@@ -21,6 +21,14 @@ public class User {
 	String telephone="";
 	String genre="";
 	
+	public User(){
+		
+	}
+	
+	public User(String string){
+		
+	}
+	
 	public String getGenre() {
 		return genre;
 	}
